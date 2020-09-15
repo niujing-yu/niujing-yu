@@ -1,0 +1,5 @@
+如果mysql忘记了密码怎么办？
+答：
+1、通过非服务方式加“skip-grant-tables”运行mysql来修改mysql密码；
+2、停止mysql服务打开命令行窗口，在bin目录下使用mysqld-nt.exe启动，即在命令行窗口执行: mysqld-nt -skip-grant-tables，然后另外打开一个命令行窗口；
+3、登录mysql，此时无需输入mysql密码即可进入。
